@@ -16,7 +16,6 @@
 		    map: 'brazil_br',
 		    enableZoom: true,
 		    showTooltip: true
-		    //selectedRegion: 'MO'
 		});
 	});
 	</script>
