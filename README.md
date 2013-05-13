@@ -25,3 +25,4 @@
     <div id="vmap" style="width: 600px; height: 400px;"></div>
   </body>
 </html>
+
