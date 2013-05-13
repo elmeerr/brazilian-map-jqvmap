@@ -1,10 +1,3 @@
-brazilian-map-jqvmap
-====================
-
-Map of Brazil for JQVMap jQuery plugin.
-
-Example:
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -17,12 +10,13 @@ Example:
     <script src="../jqvmap/jquery.vmap.js" type="text/javascript"></script>
     <script src="../jqvmap/maps/jquery.vmap.brazil.js" type="text/javascript"></script>
     
-  <script type="text/javascript">
+	<script type="text/javascript">
 	jQuery(document).ready(function() {
 		jQuery('#vmap').vectorMap({
 		    map: 'brazil_br',
 		    enableZoom: true,
 		    showTooltip: true
+		    //selectedRegion: 'MO'
 		});
 	});
 	</script>
