@@ -15,9 +15,8 @@
 
     &lt;script type="text/javascript"&gt;
     jQuery(document).ready(function() {
-	jQuery('#vmap').vectorMap({map: 'brazil_br', enableZoom: true, showTooltip: true});
+		jQuery('#vmap').vectorMap({map: 'brazil_br', enableZoom: true, showTooltip: true});
 	});
-
     &lt;/script&gt;
   &lt;/head&gt;
   &lt;body&gt;
